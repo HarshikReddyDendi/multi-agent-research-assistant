@@ -1,0 +1,25 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated research output
+outputs/*
+!outputs/.gitkeep
